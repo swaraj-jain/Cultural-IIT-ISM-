@@ -15,32 +15,50 @@
 <body>
 
 
-          <div class="container-fluid header">
-            <div class="row ml-2 mt-2">
-              <div class="header-logo col-12 col-md-3 my-1">
-                <a href="index.html"><img src="https://www.iitism.ac.in/~bskush/IIT_ISM_Dhanbad.jpg" alt="iit-ism-logo" id="header-logo-image" ></a>
+          <div class="navbar-sticky mobile-only text-right py-2 px-4">
+            <a class="menu-hamburger-mobile" data-toggle="collapse" href="#collapsibleNavbar" role="button" aria-expanded="false" aria-controls="collapsibleNavbar">
+              <i class="fas fa-navicon">
+              </i>
+            </a>
+          </div>
+          <div class="container-fluid header py-3 px-md-5 align-items-center">
+            <div class="col flex-grow-0 mobile-only text-right">
+              <a class="menu-hamburger-mobile" data-toggle="collapse" href="#collapsibleNavbar" role="button" aria-expanded="false" aria-controls="collapsibleNavbar">
+                <i class="fas fa-navicon">
+                </i>
+              </a>
+            </div>
+            <div class="row mx-0 px-md-4 align-items-center flex-grow-md-1 flex-grow-0">
+              <div class="header-logo col-12 col-md-auto pl-0 pr-0 pr-md-4 mb-3 mb-md-0">
+                <a href="index.html" class="header-logo-image-wrapper"><img src="https://www.iitism.ac.in/~bskush/IIT_ISM_Dhanbad.jpg" alt="iit-ism-logo" id="header-logo-image" ></a>
               </div>
-              <div class="header-title-wrapper col-12 col-md-8 my-auto pb-3">
-                <h1 class="header-title">CULTURAL CLUBS</h1>
-                <h1 class="header-title">Indian Institute of Technology (Indian School of Mines)</h1>
-                <h1 class="header-title">Dhanbad - 826004</h1>
+              <div class="header-title-wrapper col-12 col-md text-center text-md-left px-4 pl-md-0 pr-md-2 mb-4 mb-md-0">
+                <h1 class="header-title mb-2 mb-md-0">CULTURAL CLUBS</h1>
+                <h1 class="header-sub-title">Indian Institute of Technology <br class="mobile-only"> (Indian School of Mines)</h1>
+                <h1 class="header-sub-title">Dhanbad - 826004</h1>
               </div>
+              <div class="extra-links-wrapper col-md-auto col-12 px-0 text-center text-md-left">
+                <a href="" class="fas fa-home extra-link"></a>
+                <a href="" class="fas fa-phone-alt extra-link"></a>
+                <a href="" class="fas fa-address-card extra-link"></a>
+              </div>
+            </div>
+            <div class="col flex-grow-0 mobile-only scroll-down-mobile text-center">
+              <i class="fas fa-chevron-down"></i>
             </div>
           </div>
 
 
-          <nav class="navbar sticky-top navbar-expand-md">
-            <div class="container-fluid">
-              <!-- Brand -->
-              <!-- Toggler/collapsibe Button -->
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon">
-                  <i class="fa fa-navicon"></i>
-                </span>
-              </button>
-          
+          <nav class="collapse navbar sticky-top navbar-expand-md" id="collapsibleNavbar">
+            <div class="container-fluid justify-content-end justify-content-md-between px-md-3 px-4">          
+              <!-- Navbar cross button -->
+              <a class="text-right px-4 py-3 mobile-only navbar-cross" data-toggle="collapse" href="#collapsibleNavbar" role="button" aria-expanded="false" aria-controls="collapsibleNavbar">
+                <i class="fas fa-times">
+                </i>
+              </a>
+
               <!-- Navbar links -->
-              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <div class="navbar-collapse">
                 <ul class="navbar-nav mx-auto">
                   
                   <li class="nav-item">
@@ -54,6 +72,14 @@
                   </li>
                 </ul>
               </div>
+              
+              <!-- Brand -->
+              <!-- Toggler/collapsibe Button -->
+              <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon">
+                  <i class="fa fa-navicon"></i>
+                </span>
+              </button> -->
             </div> 
           </nav>
 

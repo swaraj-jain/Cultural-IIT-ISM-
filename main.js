@@ -29,6 +29,11 @@ setInterval(function() {
 
 $(window).scroll(function(){
   var height = $(window).scrollTop();
+  if ( height > 0 ) {
+    $('.navbar-sticky').addClass('visible');
+  } else {
+    $('.navbar-sticky').removeClass('visible');
+  }
   if (height > 260) {
     $('.gotop').fadeIn();
   }else {
