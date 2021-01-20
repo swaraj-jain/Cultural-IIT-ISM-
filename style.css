@@ -884,3 +884,16 @@ object-fit: cover;
   /* In case the image is bigger than the column */
   overflow: hidden;
 }
+
+
+/* Flickity */
+.carousel-cell {
+  width: 100%;
+}
+.carousel-cell>.content {
+  width: 100%;
+  min-height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
