@@ -8,7 +8,7 @@ body{
     background-color: #e6e6e6 !important;
     font-family: 'Lora', serif;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cairo', sans-serif;
     max-width: 100vw;
 }
 
@@ -17,8 +17,8 @@ body{
 /*Navbar*/
 
 .navbar{
-    background-color: #003262;
-    box-shadow: 0 2px 5px #003262;
+    background-color: #0d4479;
+    box-shadow: 0 0px 3px #0d4479;
 }
 .nav-item{
     /* border: 1px solid black; */
@@ -30,7 +30,7 @@ body{
 .nav-item a:hover{
     background-color: lightgray;
     border-radius: 10px;
-    color: #003262 !important;
+    color: #0d4479 !important;
     transition-duration: 700ms;
 }
 .nav-item a{
@@ -232,10 +232,10 @@ hr{
     margin: 5px;
 }
 .page-wrapper .info-links-wrapper .info-links a{
-    color: #003262;
+    color:  #0d4479;
 }
 .fh{
-    color: #003262;
+    color:  #0d4479;
     text-align: center;
 }
 .test111 a{
@@ -248,7 +248,7 @@ marquee{
 .isfmh{
     font-size: 2.0rem;
     margin-top: 2%;
-    color: #003262;
+    color:  #0d4479;
     text-align: center;
     text-transform: uppercase;
 }
@@ -269,14 +269,14 @@ marquee{
 }
 #mainboard{
     text-align: center;
-    color: #003262;
+    color:  #0d4479;
 }
 
 
 
 
 .footer-wrapper{
-    background-color:#003262;
+    background-color:#0d4479;
     color: whitesmoke;
     box-shadow: 0 -2px 5px #3d3d3d;
     border-bottom: solid lightgray 1px;
@@ -289,7 +289,7 @@ marquee{
     padding: 7px 0;
     margin: 0;
     text-align: center;
-    background-color: #003262;
+    background-color:#0d4479;
     color: white;
 }
 .gotop{
@@ -297,7 +297,7 @@ marquee{
     position: fixed;
     width: 40px;
     height: 40px;
-    background: #003262;
+    background: #0d4479;
     color: white;
     bottom: 3%;
     right: 3%;
@@ -312,7 +312,7 @@ marquee{
     color: white;
 }
   table, th, td {
-    border: 1px solid #003262;
+    border: 1px solid #0d4479;
     border-collapse: collapse;
   }
   th, td {
@@ -320,12 +320,12 @@ marquee{
   }
   th {
     text-align: center;
-    background-color: #003262;
+    background-color: #0d4479;
     color: white;
     border-color: white;
   }
   td{
-      color: #003262;
+      color:  #0d4479;
       
   }
   tr:hover{
@@ -338,7 +338,7 @@ marquee{
 
 .acc-main {
     padding: 10px 0px 80px;
-    color: #003262;
+    color:#0d4479;
   }
   .container {
     
@@ -378,7 +378,7 @@ marquee{
     padding-bottom: 0;
   }
   .accordion_head {
-    background-color: #003262;
+    background-color: #0d4479;
     color: #fff;
     cursor: pointer;
     font-size: 24px;
@@ -394,7 +394,7 @@ marquee{
   }
   .accordion_body {
     background: transparent;
-    border: 1px solid #003262;
+    border: 1px solid #0d4479;
     font-size: 18px;
     text-align: center;
     padding: 5%;
@@ -721,7 +721,7 @@ marquee{
   padding-left: 0;
 }
 .header-title, .header-sub-title {
-  color: #003262;
+  color: #0d4479;
   padding: 0;
   margin: 0;
 }
@@ -734,14 +734,14 @@ marquee{
   font-weight: 600;
 }
 .extra-link {
-  color: #003262;
+  color: #0d4479;
   text-decoration: none;
   font-size: 1.4rem;
   margin: .3em;
 }
 #profimgs{
   width: 100px;
-  border: 1px solid #003262;
+  border: 1px solid #0d4479;
   align-items: center;
   
 }
@@ -772,10 +772,10 @@ marquee{
   }
   .menu-hamburger-mobile, .scroll-down-mobile {
     font-size: 24px;
-    color: #003262;
+    color: #0d4479;
   }
   .menu-hamburger-mobile {
-    color:#003262;
+    color: #0d4479;
   }
   #profimgs{
     width: 60px;
@@ -788,7 +788,7 @@ marquee{
     top: 0;
     right: 0;
     left: 0;
-    background-color: #003262;
+    background-color: #0d4479;
     z-index: 1019;
     transform: translateY(-120%);
     transition: transform .6s;
@@ -821,7 +821,7 @@ marquee{
  overflow: hidden;
  margin-bottom: 5%;
  box-shadow: 1px 1px 2px #d3d3d3, 0 0 20px #dfdfdf, 0 0 5px #fff;
- box-shadow: 4px 4px 10px #003262;
+ box-shadow: 4px 4px 10px #0d4479;
  border-radius: 3%;
  transition-duration: 400ms;
  z-index: -20;
@@ -829,7 +829,7 @@ marquee{
 }
 #gallery .img-container:hover{
   box-shadow: 1px 1px 2px #d3d3d3, 0 0 5px #dfdfdf, 0 0 5px #fff;
-  box-shadow: 2px 2px 7px #003262;
+  box-shadow: 2px 2px 7px #0d4479;
   transform: scale(1.15);
   float: initial;
   transition-duration: 400ms;
