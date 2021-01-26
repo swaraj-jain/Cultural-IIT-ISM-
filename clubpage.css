@@ -908,3 +908,8 @@ ol.gradient-list > li + li {
   margin-top: 2rem;
 }
 /*# sourceMappingURL=club.css.map */
+
+.head_for_nav{
+  margin: 0em;
+  padding-top: 5rem;
+}

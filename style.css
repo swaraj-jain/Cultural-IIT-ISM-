@@ -10,6 +10,7 @@ body{
     font-size: 14px;
     font-family: 'Cairo', sans-serif;
     max-width: 100vw;
+    scroll-behavior: smooth;
 }
 
 
@@ -291,6 +292,7 @@ marquee{
     text-align: center;
     background-color:#0d4479;
     color: white;
+    font-size: 1rem;
 }
 .gotop{
     font-size: 22px;
@@ -897,3 +899,72 @@ object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
+
+
+/*================================================*/
+
+
+
+
+.footer-col ul{
+  list-style-type: none;
+}
+#userEmail{
+  height:2.5rem;
+  width: 50%;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+#userMessage{
+  height:4rem;
+  width: 50%;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+#contact-submit{
+  width: 7rem;
+}
+
+@media(max-width:1000px)
+{
+  #userEmail{
+    height:2.5rem;
+    width: 70%;
+  }
+  #userMessage{
+    height:3.5rem;
+    width: 70%;
+  }
+  #contact-submit{
+    width: 5rem;
+    margin-bottom: 0em;
+  }
+ 
+}
+#footer-adress{
+  font-size: 1rem;
+}
+
+@media(max-width:600px)
+{
+  #userEmail{
+    height:2.5rem;
+    width: 70%;
+  }
+  #userMessage{
+    height:3.5rem;
+    width: 70%;
+  }
+  #contact-submit{
+    width: 4rem;
+    height: 2rem;
+  }
+  #footer-adress{
+    font-size: 0.9rem;
+  }
+ 
+}
+
+
