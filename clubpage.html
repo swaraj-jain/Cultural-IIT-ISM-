@@ -289,7 +289,7 @@
                         <div class="d-flex justify-content-center">
                         <div class="our-team">
                           <div class="picture">
-                            <img class="img-fluid" src="https://picsum.photos/130/130?image=1027">
+                            <img class="img-fluid" src="cordi_images/Trial.jpg">
                           </div>
                           <div class="team-content">
                             <h3 class="name">Michele Miller</h3>
@@ -307,7 +307,7 @@
                         <div class="d-flex justify-content-center">
                         <div class="our-team">
                           <div class="picture">
-                            <img class="img-fluid" src="https://picsum.photos/130/130?image=1027">
+                            <img class="img-fluid" src="cordi_images/Trial.jpg">
                           </div>
                           <div class="team-content">
                             <h3 class="name">Michele Miller</h3>
@@ -325,7 +325,7 @@
                         <div class="d-flex justify-content-center">
                         <div class="our-team">
                           <div class="picture">
-                            <img class="img-fluid" src="https://picsum.photos/130/130?image=1027">
+                            <img class="img-fluid" src="cordi_images/Trial.jpg">
                           </div>
                           <div class="team-content">
                             <h3 class="name">Michele Miller</h3>
@@ -423,5 +423,62 @@
      });
      });
 </script>
+
+
+<!--============================================Firebase===========================================-->
+   
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+    <script>
+            var firebaseConfig = {
+              apiKey: "AIzaSyD6uEiqsP136qlouklm2A6YwRPTq0VyWrw",
+              authDomain: "cultural-web-demo.firebaseapp.com",
+              databaseURL: "https://cultural-web-demo-default-rtdb.firebaseio.com",
+              projectId: "cultural-web-demo",
+              storageBucket: "cultural-web-demo.appspot.com",
+              messagingSenderId: "972563084587",
+              appId: "1:972563084587:web:161e1625d7dacd9682416e",
+              measurementId: "G-N4F4LYP70B"
+            };
+
+          firebase.initializeApp(firebaseConfig);
+
+          
+
+          const submitButton = document.querySelector("#contact-submit");
+
+          let userEmail = document.querySelector("#userEmail");
+          let userMessage = document.querySelector("#userMessage");
+
+
+          //const db = firestore.collection("Clubname");
+
+
+          submitButton.addEventListener("click",function(){
+          let userEmailInput = userEmail.value;
+          let userMessageInput = userMessage.value;
+
+          //Access the database collection
+          console.log("hii6")
+            firebase.database().ref('LITM').push({
+            Email : userEmailInput,
+            Message :userMessageInput
+          }).then(function(){
+            console.log("Message Sent");
+          }).catch(function(error){
+            console.log(error)
+          });
+
+          
+          userEmail.value = "";
+          userMessage.value = "";
+
+          });
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+
+<!--===================================================================================================-->
+
 </body>
 </html>

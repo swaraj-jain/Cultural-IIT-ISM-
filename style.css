@@ -889,16 +889,20 @@ object-fit: cover;
 
 
 /* Flickity */
-.carousel-cell {
+.main-carousel .carousel-cell {
   width: 100%;
 }
-.carousel-cell>.content {
+.main-carousel .carousel-cell>.content {
   width: 100%;
   min-height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/*=========================================*/
+
+
 
 
 
@@ -964,7 +968,21 @@ object-fit: cover;
   #footer-adress{
     font-size: 0.9rem;
   }
+  .copyright{
+    padding: 0.25rem;
+    font-size: 0.8rem;
+  }
+  #display_box{
+    margin-left: 8px !important ;
+      margin-right: 8px !important ;
+      margin-bottom: 5px !important ;
+  }
  
 }
 
 
+/*=============================*/
+
+.card-subtitle :hover{
+  text-decoration: none;
+}
