@@ -1,3 +1,4 @@
+
 .main-container{
     background-color: #ffffff !important;
     height: 100% !important;
@@ -65,7 +66,7 @@
         width: 2.5rem !important;
     }
     ol.gradient-list > li::before {
-        font: 800 1em/1 'Montserrat' !important;
+      font: 900 1.7em/1 'Montserrat' !important;
     }
     .social-size{
         font-size: 20px !important;
@@ -90,7 +91,7 @@
         width: 2.5rem !important;
     }
     ol.gradient-list > li::before {
-        font: 800 1em/1 'Montserrat' !important;
+        font: 900 2em/1 'Montserrat' !important;
     }
     .social-size{
         font-size: 25px !important;
@@ -123,6 +124,11 @@
     box-shadow: 0 0 5px #0007 !important;
     margin-bottom: 30px !important;
     border-radius: 4px;
+    transition: transform 0.3s;
+}
+.event-box:hover{
+  transform: scale(1.05);
+  box-shadow: 3px 3px 12px #2d2d2d;
 }
 .event-name{
     padding: 30px 6px !important;
@@ -856,7 +862,7 @@ ol.gradient-list > li::before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font: 900 1.2em/1 'Montserrat';
+  font: 900 2.4em/1 'Montserrat';
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
