@@ -949,6 +949,33 @@ object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+.clubs-carousel {
+  margin-bottom: 40px;
+}
+.clubs-carousel .carousel-cell {
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 15px;
+}
+.clubs-carousel .carousel-cell>img {
+  display: block;
+  width: 125px;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .clubs-carousel {
+    margin-top: 30px;
+  }
+  .clubs-carousel .carousel-cell {
+    margin: 0 10px;
+  }
+  .clubs-carousel .carousel-cell>img {
+    width: 100px;
+  }
+  .flickity-button {
+    display: none;
+  }
+}
 
 /*=========================================*/
 
