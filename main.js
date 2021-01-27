@@ -41,8 +41,7 @@ $(window).scroll(function(){
     }
  });
 
- 
-// Flickity set up
-$('.main-carousel').flickity({
-  autoPlay: 2000
-});
+
+$('.navbar-collapse .nav-link').click(function () {
+  $('#collapsibleNavbar').collapse('hide');
+})

@@ -356,6 +356,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.min.js"></script>
     <script src="main.js"></script>
-   
+    <script>      
+      // Flickity set up
+      $('.main-carousel').flickity({
+        autoPlay: 2000
+      });
+
+      $('.clubs-carousel').flickity({
+        autoPlay: 2000,
+        groupCells: true,
+      });
+    </script>
 </body>
 </html>
