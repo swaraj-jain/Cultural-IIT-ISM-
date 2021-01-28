@@ -42,6 +42,6 @@ $(window).scroll(function(){
  });
 
 
-$('.navbar-collapse .nav-link').click(function () {
+$('.navbar-collapse .anchor-link').click(function () {
   $('#collapsibleNavbar').collapse('hide');
 })
