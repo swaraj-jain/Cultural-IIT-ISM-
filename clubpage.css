@@ -919,3 +919,24 @@ ol.gradient-list > li + li {
   margin: 0em;
   padding-top: 5rem;
 }
+
+
+
+/* Move     */
+
+#aboutss{
+  position: relative;
+  top: -80px;
+}
+#galleryss{
+  position: relative;
+  top: -70px;
+}
+#eventess{
+  position: relative;
+  top: -70px;
+}
+#achss{
+  position: relative;
+  top: -70px;
+}
