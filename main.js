@@ -42,6 +42,14 @@ $(window).scroll(function(){
  });
 
 
-$('.navbar-collapse .anchor-link').click(function () {
+$('.navbar-collapse .nav-link:not(.dropdown-toggle)').click(function () {
   $('#collapsibleNavbar').collapse('hide');
-})
+});
+
+$('.navbar-cross').click(function () {
+  $('#collapsibleNavbar')[0].style.width = "0";
+});
+
+$('#collapsibleNavbar').on('hidden.bs.collapse', function () {
+  $('#collapsibleNavbar')[0].style.removeProperty('width');
+});

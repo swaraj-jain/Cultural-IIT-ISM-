@@ -107,8 +107,11 @@ body{
     top: 0;
     left: 0;
     width: 0;
-    height: 100vh;
+    height: 100vh !important;
     overflow: hidden;
+    transition: width .35s ease;
+    padding: 0;
+    display: flex !important;
   }
   .navbar>.container-fluid {
     position: absolute;
@@ -118,9 +121,8 @@ body{
     bottom: 0;
     width: 100vw;
   }
-  .navbar.show {
+  .navbar.collapsing, .navbar.show {
     width: 100vw;
-    transition: width .5s;
   }
   .navbar-cross {
     color: white;
