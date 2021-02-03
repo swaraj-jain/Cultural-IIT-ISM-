@@ -14,13 +14,13 @@
 .club-logo{
     border-radius: 50% !important;
     background-color:  #ffffff !important;
-    box-shadow: 0 0 7px rgb(187, 185, 185) !important;
-    -webkit-box-shadow: 0 0 7px rgb(187, 185, 185) !important;
+    box-shadow: 0 0 8px rgb(187, 185, 185) !important;
+    -webkit-box-shadow: 0 0 8px rgb(187, 185, 185) !important;
     width: 160px !important;
     height: 160px !important;
-    background-image: url(./Images/LITM.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center center !important;
 }
 .social-icon{
     font-size: 35px !important;
@@ -31,14 +31,14 @@
     border-top: 2.5px solid #063e72 !important;
     padding-top: 1% !important;
     text-align: justify !important;
-    font-size: 17px;
+    font-size: 18px;
     color: #000;
-
-    
 }
 .club-name{
     font-size: 50px !important;
-    font-weight: 550;
+    font-weight: 600 !important;
+    color: #063e72;
+    margin-bottom: 5% !important;
 }
 .font-event{
     font-size: 23px !important;
@@ -49,14 +49,14 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 320px) and (max-width: 400px) { 
     .club-logo{
-        width: 70px !important;
-        height: 70px !important;
+        width: 65px !important;
+        height: 65px !important;
     }
     .club-name{
         font-size: 20px !important;
     }
-    .font-event{
-        font-size: 14px !important;
+    .font-event , .description{
+        font-size: 15px !important;
     }
     .gradient-list li{
         padding: 1rem 1rem 1rem 2.5rem !important;
@@ -69,7 +69,7 @@
       font: 900 1.7em/1 'Montserrat' !important;
     }
     .social-size{
-        font-size: 20px !important;
+        font-size: 23px !important;
     }
 }
 @media (min-width: 400px) and (max-width: 546px) { 
@@ -80,7 +80,7 @@
     .club-name{
         font-size: 26px !important;
     }
-    .font-event{
+    .font-event ,.description{
         font-size: 16px !important;
     }
     .gradient-list li{
@@ -94,7 +94,7 @@
         font: 900 2em/1 'Montserrat' !important;
     }
     .social-size{
-        font-size: 25px !important;
+        font-size: 26px !important;
     }
 }
 @media (min-width: 546px) and (max-width: 767px) { 
@@ -105,7 +105,7 @@
     .club-name , .social-icon{
         font-size: 32px !important;
     }
-    .font-event{
+    .font-event , .description{
         font-size: 19px !important;
     }
     .gradient-list li{
@@ -127,7 +127,7 @@
     transition: transform 0.3s;
 }
 .event-box:hover{
-  transform: scale(1.05);
+  transform: scale(1.1);
   box-shadow: 3px 3px 12px #2d2d2d;
 }
 .event-name{
@@ -160,43 +160,43 @@
   .social-size{
       font-size: 40px;
   }
-  .wrapper i:nth-child(1) {
-    color: #4867AA;
+  .wrapper a:nth-child(1) {
+    color: #4867AA !important;
     cursor: pointer;
     text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
     transition: all ease-in-out 150ms;
   }
   
-  .wrapper i:nth-child(1):hover {
-    margin-top: -10px;
+  .wrapper a:nth-child(1):hover {
     text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.1);
     transform: translate(0, -8);
+    transform: scale(1.2);
   }
   
-  .wrapper i:nth-child(2) {
-    color: #C13584;
+  .wrapper a:nth-child(2) {
+    color: #C13584 !important;
     cursor: pointer;
     text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
     transition: all ease-in-out 150ms;
   }
   
-  .wrapper i:nth-child(2):hover {
-    margin-top: -10px;
+  .wrapper a:nth-child(2):hover {
     text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.1);
     transform: translate(0, -8);
+    transform: scale(1.2);
   }
   
-  .wrapper i:nth-child(3) {
-    color: #FF0000;
+  .wrapper a:nth-child(3) {
+    color: #FF0000 !important;
     cursor: pointer;
     text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
     transition: all ease-in-out 150ms;
   }
   
-  .wrapper i:nth-child(3):hover {
-    margin-top: -10px;
+  .wrapper a:nth-child(3):hover {
     text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.1);
     transform: translate(0, -5);
+    transform: scale(1.2);
   }
 
   .our-team {
@@ -311,6 +311,7 @@
   overflow: hidden;
   height: 100vh;
   padding: 40px 0px;
+  margin-bottom: 100px;
 }
 
 .cont__inner {
@@ -327,7 +328,7 @@
   left: 0;
   top: 0;
   width: 24.25%;
-  height: 80%;
+  height: 130%;
   background: #252525;
   -webkit-transition: width 0.7s, opacity 0.6s 0.7s, z-index 0s 1.3s, -webkit-transform 0.6s 0.7s;
   transition: width 0.7s, opacity 0.6s 0.7s, z-index 0s 1.3s, -webkit-transform 0.6s 0.7s;
@@ -335,7 +336,50 @@
   transition: transform 0.6s 0.7s, width 0.7s, opacity 0.6s 0.7s, z-index 0s 1.3s, -webkit-transform 0.6s 0.7s;
   will-change: transform, width, opacity;
 }
-
+@media (min-width: 320px) and (max-width: 416px) { 
+  .el {
+   height: 85% !important;
+ }
+ .el__close-btn{
+   width: 25px !important;
+   height: 25px !important;
+ }
+ .cont {
+  height: 65vh !important;
+  margin-bottom: 20px !important;
+ }
+}
+@media (min-width: 416px) and (max-width: 546px) { 
+  .el {
+     height: 90% !important;
+   }
+   .el__close-btn{
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .cont {
+    height: 70vh !important;
+    margin-bottom: 0px !important;
+   }
+ }
+@media (min-width: 546px) and (max-width: 746px) { 
+  .el {
+     height: 90% !important;
+   }
+   .cont {
+    height: 80vh !important;
+    margin-bottom: 0px;
+   }
+}
+@media (min-width: 746px) and (max-width: 991px) { 
+   .el {
+      height: 90% !important;
+    }
+    .cont {
+      height: 85vh !important;
+      margin-bottom: 0px;
+     }
+}
 .el:not(.s--active) {
   cursor: pointer;
 }
@@ -553,31 +597,6 @@
           transform: rotate(-45deg) translateX(0);
 }
 
-.el__index {
-  overflow: hidden;
-  position: absolute;
-  left: 0;
-  bottom: -40px;
-  width: 100%;
-  height: 100%;
-  min-height: 250px;
-  text-align: center;
-  font-size: 25vw;
-  line-height: 0.85;
-  font-weight: bold;
-  -webkit-transition: opacity 0.3s 1.4s, -webkit-transform 0.5s;
-  transition: opacity 0.3s 1.4s, -webkit-transform 0.5s;
-  transition: transform 0.5s, opacity 0.3s 1.4s;
-  transition: transform 0.5s, opacity 0.3s 1.4s, -webkit-transform 0.5s;
-  -webkit-transform: translate3d(0, 1vw, 0);
-          transform: translate3d(0, 1vw, 0);
-}
-
-.el:hover .el__index {
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-}
-
 .cont.s--el-active .el__index {
   -webkit-transition: opacity 0.3s, -webkit-transform 0.5s;
   transition: opacity 0.3s, -webkit-transform 0.5s;
@@ -585,60 +604,6 @@
   transition: transform 0.5s, opacity 0.3s, -webkit-transform 0.5s;
   opacity: 0;
 }
-
-.el__index-back, .el__index-front {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-.el__index-back {
-  color: #2f3840;
-  opacity: 0;
-  -webkit-transition: opacity 0.25s 0.25s;
-  transition: opacity 0.25s 0.25s;
-}
-
-.el:hover .el__index-back {
-  -webkit-transition: opacity 0.25s;
-  transition: opacity 0.25s;
-  opacity: 1;
-}
-
-.el__index-overlay {
-  overflow: hidden;
-  position: relative;
-  -webkit-transform: translate3d(0, 100%, 0);
-          transform: translate3d(0, 100%, 0);
-  -webkit-transition: -webkit-transform 0.5s 0.1s;
-  transition: -webkit-transform 0.5s 0.1s;
-  transition: transform 0.5s 0.1s;
-  transition: transform 0.5s 0.1s, -webkit-transform 0.5s 0.1s;
-  color: transparent;
-}
-
-.el__index-overlay:before {
-  content: attr(data-index);
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  color: #fff;
-  -webkit-transform: translate3d(0, -100%, 0);
-          transform: translate3d(0, -100%, 0);
-  -webkit-transition: -webkit-transform 0.5s 0.1s;
-  transition: -webkit-transform 0.5s 0.1s;
-  transition: transform 0.5s 0.1s;
-  transition: transform 0.5s 0.1s, -webkit-transform 0.5s 0.1s;
-}
-
-.el:hover .el__index-overlay {
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-}
-
 .el:hover .el__index-overlay:before {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
@@ -674,7 +639,6 @@
 .el:nth-child(1) .el__bg:before {
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-3.jpg");
 }
 
 .el:nth-child(2) {
@@ -707,7 +671,6 @@
 .el:nth-child(2) .el__bg:before {
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-4.jpg");
 }
 
 .el:nth-child(3) {
@@ -740,7 +703,6 @@
 .el:nth-child(3) .el__bg:before {
   -webkit-transition-delay: 0.2s;
           transition-delay: 0.2s;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-5.jpg");
 }
 
 .el:nth-child(4) {
@@ -773,7 +735,6 @@
 .el:nth-child(4) .el__bg:before {
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-6.jpg");
 }
 
 .el:hover .el__bg:after {
