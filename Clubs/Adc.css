@@ -1,16 +1,16 @@
 .club-logo{
-    background-image: url(../Images/ADC.png);
+    background-image: url(../Images/ADC/ADC.png);
     background-color: #0F3B57 !important;
 }
 .el:nth-child(1) .el__bg:before {
-    background-image: url("../Images/ADC-1.jpg");
+    background-image: url("../Images/ADC/ADC-1.jpg");
 }
 .el:nth-child(2) .el__bg:before {
-    background-image: url("../Images/ADC-2.jpg");
+    background-image: url("../Images/ADC/ADC-2.jpg");
 }
 .el:nth-child(3) .el__bg:before {
-    background-image: url("../Images/ADC-3.jpg");
+    background-image: url("../Images/ADc/ADC-3.jpg");
 }
 .el:nth-child(4) .el__bg:before {
-    background-image: url("../Images/ADC-4.jpg");
+    background-image: url("../Images/ADC/ADC-4.jpg");
 }

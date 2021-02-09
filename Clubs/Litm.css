@@ -1,0 +1,20 @@
+.club-logo{
+    background-image: url('../Images/LITM/LITM.jpg');
+}
+.el:nth-child(1) .el__bg:before {
+    background-image: url("../Images/LITM/LITM-1.jpeg");
+}
+.el:nth-child(2) .el__bg:before {
+    background-image: url("../Images/LITM/LITM-2.jpg");
+}
+.el:nth-child(3) .el__bg:before {
+    background-image: url("../Images/LITM/LITM-3.jpeg");
+}
+.el:nth-child(4) .el__bg:before {
+    background-image: url("../Images/LITM/LITM-4.jpg");
+}
+@media (min-width: 320px) and (max-width: 992px) { 
+    .cen{
+        justify-content: center !important;
+    }
+}

@@ -1,6 +1,5 @@
 .club-logo{
     background-image: url('../Images/FF/ff logo.jpeg');
-    background-color: #0F3B57 !important;
 }
 .el:nth-child(1) .el__bg:before {
     background-image: url("../Images/FF/G1.jpeg");
