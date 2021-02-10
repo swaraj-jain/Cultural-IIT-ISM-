@@ -1,0 +1,16 @@
+.club-logo{
+    background-image: url(../Images/LITC/LITC.jpg);
+    background-color: #0F3B57 !important;
+}
+.el:nth-child(1) .el__bg:before {
+    background-image: url("../Images/LITC/LITC-1.jpeg");
+}
+.el:nth-child(2) .el__bg:before {
+    background-image: url("../Images/LITC/LITC-2.jpeg");
+}
+.el:nth-child(3) .el__bg:before {
+    background-image: url("../Images/LITC/LITC-3.jpeg");
+}
+.el:nth-child(4) .el__bg:before {
+    background-image: url("../Images/LITC/LITC-4.jpeg");
+}
