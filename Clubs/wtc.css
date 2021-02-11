@@ -1,0 +1,15 @@
+.club-logo{
+    background-image: url('../Images/WTC/wtc.jpeg');
+}
+.el:nth-child(1) .el__bg:before {
+    background-image: url("../Images/WTC/WTC-1.jpg");
+}
+.el:nth-child(2) .el__bg:before {
+    background-image: url("../Images/WTC/WTC-2.jpg");
+}
+.el:nth-child(3) .el__bg:before {
+    background-image: url("../Images/WTC/WTC-3.jpg");
+}
+.el:nth-child(4) .el__bg:before {
+    background-image: url("../Images/WTC/WTC-4.jpg");
+}
