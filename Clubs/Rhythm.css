@@ -1,0 +1,15 @@
+.club-logo{
+    background-image: url('../Images/Rhythm/Rhythm-Logo.png');
+}
+.el:nth-child(1) .el__bg:before {
+    background-image: url("../Images/Rhythm/Rhythm-1.jpeg");
+}
+.el:nth-child(2) .el__bg:before {
+    background-image: url("../Images/Rhythm/Rhythm-2.jpeg");
+}
+.el:nth-child(3) .el__bg:before {
+    background-image: url("../Images/Rhythm/Rhythm-3.jpeg");
+}
+.el:nth-child(4) .el__bg:before {
+    background-image: url("../Images/Rhythm/Rhythm-4.jpeg");
+}
