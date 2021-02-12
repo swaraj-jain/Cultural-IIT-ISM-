@@ -1,0 +1,20 @@
+.club-logo{
+    /* background-image: url(../Images/ADC/ADC.png); */
+}
+.el:nth-child(1) .el__bg:before {
+    background-image: url("../Images/Comedy/Comedy-1.png");
+}
+/* .el:nth-child(2) .el__bg:before {
+    background-image: url("../Images/ADC/ADC-2.jpg");
+}
+.el:nth-child(3) .el__bg:before {
+    background-image: url("../Images/ADc/ADC-3.jpg");
+}
+.el:nth-child(4) .el__bg:before {
+    background-image: url("../Images/ADC/ADC-4.jpg");
+} */
+@media (min-width: 320px) and (max-width: 992px) { 
+    .cen{
+        justify-content: center !important;
+    }
+}
