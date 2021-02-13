@@ -1,0 +1,15 @@
+.club-logo{
+    background-image: url("../Images/Udaan/Udaan.png");
+}
+.el:nth-child(1) .el__bg:before {
+    background-image: url("../Images/Udaan/Udaan-1.jpg");
+}
+.el:nth-child(2) .el__bg:before {
+    background-image: url("../Images/Udaan/Udaan-2.jpg");
+}
+.el:nth-child(3) .el__bg:before {
+    background-image: url("../Images/Udaan/Udaan-3.jpg");
+}
+.el:nth-child(4) .el__bg:before {
+    background-image: url("../Images/Udaan/Udaan-4.jpg");
+}
