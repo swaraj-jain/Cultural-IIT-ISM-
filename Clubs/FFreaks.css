@@ -2,16 +2,16 @@
     background-image: url('../Images/FFreaks/F-logo.png');
 }
 .el:nth-child(1) .el__bg:before {
-    background-image: url("../Images/LITM/LITM-1.jpeg");
+    background-image: url("../Images/FFreaks/1.jpg");
 }
 .el:nth-child(2) .el__bg:before {
-    background-image: url("../Images/LITM/LITM-2.jpg");
+    background-image: url("../Images/FFreaks/2.jpg");
 }
 .el:nth-child(3) .el__bg:before {
-    background-image: url("../Images/LITM/LITM-3.jpeg");
+    background-image: url("../Images/FFreaks/3.jpg");
 }
 .el:nth-child(4) .el__bg:before {
-    background-image: url("../Images/LITM/LITM-4.jpg");
+    background-image: url("../Images/FFreaks/4.jpg");
 }
 @media (min-width: 320px) and (max-width: 992px) { 
     .cen{
