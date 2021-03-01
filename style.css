@@ -1003,15 +1003,67 @@ background-position: center;
 margin-bottom: 40px;
 }
 .clubs-carousel .carousel-cell {
-border-radius: 100%;
-overflow: hidden;
-margin: 0 15px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 15px;
+  width: 125px;
+  height: 125px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center !important;
+  box-shadow: 0 0 8px rgb(187, 185, 185) !important;
+  -webkit-box-shadow: 0 0 8px rgb(187, 185, 185) !important;
 }
-.clubs-carousel .carousel-cell>img {
-display: block;
-width: 125px;
-height: auto;
+.clubs-carousel .carousel-cell:nth-child(1) {
+  background-image: url('./Images/ADC/ADC.png');
+  background-color: #0F3B57 !important;
 }
+.clubs-carousel .carousel-cell:nth-child(2) {
+  background-image: url('./Images/ArtFreaks/logo.jpg');
+}
+.clubs-carousel .carousel-cell:nth-child(3) {
+  background-image: url('./Images/Chayanika/Chayanika.png');
+}
+.clubs-carousel .carousel-cell:nth-child(4) {
+  background-image: url('./Images/Comedy/Comclublogo.png');
+}
+.clubs-carousel .carousel-cell:nth-child(5) {
+  background-image: url('./Images/FF/ff\ logo.jpeg');
+}
+.clubs-carousel .carousel-cell:nth-child(6) {
+  background-image: url('./Images/FFreaks/F-logo.png');
+}
+.clubs-carousel .carousel-cell:nth-child(7) {
+  background-image: url('./Images/LCI/logo.jpg');
+}
+.clubs-carousel .carousel-cell:nth-child(8) {
+  background-image: url('./Images/LITC/LITC.jpg');
+}
+.clubs-carousel .carousel-cell:nth-child(9) {
+  background-image: url('./Images/LITM/LITM.jpg');
+}
+.clubs-carousel .carousel-cell:nth-child(10) {
+  background-image: url('./Images/LTI/LTI.png');
+}
+.clubs-carousel .carousel-cell:nth-child(11) {
+  background-image: url('./Images/manthan/logo.jpg');
+}
+.clubs-carousel .carousel-cell:nth-child(12) {
+  background-image: url();
+}
+.clubs-carousel .carousel-cell:nth-child(13) {
+  background-image: url('./Images/quiz/logo.jpg');
+}
+.clubs-carousel .carousel-cell:nth-child(14) {
+  background-image: url('./Images/Rhythm/Rhythm-Logo.png');
+}
+.clubs-carousel .carousel-cell:nth-child(15) {
+  background-image: url('./Images/Udaan/Udaan.png');
+}
+.clubs-carousel .carousel-cell:nth-child(16) {
+  background-image: url('./Images/WTC/wtc.jpeg');
+}
+
 @media (max-width: 768px) {
 .clubs-carousel {
   margin-top: 30px;
