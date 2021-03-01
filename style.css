@@ -95,11 +95,16 @@ text-align: center;
 .nav-item.dropdown:hover .dropdown-menu, .dropdown-menu.show {
   display: flex;
   flex-flow: row wrap;
-  width: 300px;
+  width: 400px;
 }
 .dropdown-item {
-  width: 100px;
+  width: 200px;
 }
+}
+@media (min-width: 1217px) {
+  .nav-item.dropdown:hover .dropdown-menu, .dropdown-menu.show {
+    width: 600px;
+  }
 }
 
 @media (max-width: 767.98px){
