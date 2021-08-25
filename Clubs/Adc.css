@@ -9,7 +9,7 @@
     background-image: url("../Images/ADC/ADC-2.jpg");
 }
 .el:nth-child(3) .el__bg:before {
-    background-image: url("../Images/ADc/ADC-3.jpg");
+    background-image: url("../Images/ADC/ADC-3.jpg");
 }
 .el:nth-child(4) .el__bg:before {
     background-image: url("../Images/ADC/ADC-4.jpg");
